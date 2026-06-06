@@ -1,0 +1,57 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainActualizarProductos",
+            "request": "launch",
+            "mainClass": "cibertec.pe.main.MainActualizarProductos",
+            "projectName": "Crud-Product-Client"
+        },
+        {
+            "type": "java",
+            "name": "MainBuscarProducto",
+            "request": "launch",
+            "mainClass": "cibertec.pe.main.MainBuscarProducto",
+            "projectName": "Crud-Product-Client"
+        },
+        {
+            "type": "java",
+            "name": "MainListarProductos",
+            "request": "launch",
+            "mainClass": "cibertec.pe.main.MainListarProductos",
+            "projectName": "Crud-Product-Client"
+        },
+        {
+            "type": "java",
+            "name": "MainCrearProducto",
+            "request": "launch",
+            "mainClass": "cibertec.pe.main.MainCrearProducto",
+            "projectName": "Crud-Product-Client"
+        },
+        {
+            "type": "java",
+            "name": "CrudProductClientApplication",
+            "request": "launch",
+            "mainClass": "cibertec.pe.CrudProductClientApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "CrudProductClientApplication",
+            "request": "launch",
+            "mainClass": "cibertec.pe.Crud_Product_Client.CrudProductClientApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CrudProductServerApplication<Crud-Product-Server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cibertec.pe.CrudProductServerApplication",
+            "projectName": "Crud-Product-Server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=49755 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=Crud-Product-Server"
+        }
+    ]
+}
