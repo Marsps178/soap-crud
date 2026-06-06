@@ -10,10 +10,10 @@ public class MainActualizarProductos {
         int updateId = 1; // ID de ejemplo
         
         Producto p = new Producto();
-        p.setNombre("Producto Modificado Prueba");
+        p.setNombre("Producto Modificado Prueba 2");
         p.setPrecio(150.50);
         p.setCantidad(25);
-        
+         
         String respuesta = service.updateProducto(updateId, p);
         System.out.println("Respuesta del servidor: " + respuesta);
     }
